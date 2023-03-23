@@ -1,0 +1,61 @@
+/* import variable.css file */
+@import "variable.css";
+
+/* body font family CSS */
+body{
+    font-family: var(--primary-font-family);
+}
+
+
+/* contact CSS */
+.contact .container .form-data form .contact-form input,
+.contact .container .form-data form .contact-form select,
+.contact .container .form-data form .contact-form textarea{
+    border-radius: 0;
+    background-color: #F2F2F2;
+}
+
+.contact{
+    padding: 74px 98px;;
+}
+
+/* footer CSS */
+
+footer{
+    background-color: #181F28;
+}
+footer p{
+    color: var(--primary-color);
+    padding-top: 38px;
+    font-size: 12px;
+}
+footer h5{
+    text-transform: uppercase;
+    padding-top: 38px;
+    color: var(--primary-color);
+    font-family: var(--secondary-font-family);
+
+}
+footer h6{
+    text-transform: uppercase;
+    padding-top: 38px;
+    color: var(--primary-color);
+    font-family: var(--secondary-font-family);
+    padding-top: 30px;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    margin-bottom: 14px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 12px;
+
+
+}
