@@ -18,14 +18,17 @@ header .container .navbar .collapse .navbar-nav .nav-link.active{
 /* banner CSS */
 .banner{
     background-image: url("../images/contactbanner.png");
-    height: calc(100vh - 70.23px);
+    height: 300px;
     width: 100%;
     background-size: contain;
+    position: relative;
 }
 
 .banner h1{
-    text-align: center;
-    line-height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     font-family: var(--secondary-font-family);
 }
 
